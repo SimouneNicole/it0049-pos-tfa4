@@ -18,6 +18,10 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# Python cache
+__pycache__/
+*.pyc
+
 # Windows Installer files
 *.cab
 *.msi
