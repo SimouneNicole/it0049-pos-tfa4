@@ -2,6 +2,8 @@
 
 A CodeIgniter 4 Point of Sale application that extends TFA3 with password hashing, staff login, session-based authentication, protected customer and user routes, and logout. The TFA3 customer CRUD, user CRUD, validation, avatar upload, and liquid-glass interface remain included.
 
+## Deployed InfinityFree website: http://tfa4.freehosting.dev/
+
 ## Features
 
 - Login form with username and password validation
@@ -40,7 +42,9 @@ composer install
 
 ### 3. Set up the database
 
-For a fresh setup, import `db_export/database.sql` through phpMyAdmin. It creates the `it0049_pos` database, the customer and user tables, the avatar field, the password field, and the fictional sample records.
+For a fresh local setup, import `db_export/database.sql` through phpMyAdmin. It creates the `it0049_pos` database, the customer and user tables, the avatar field, the password field, and the fictional sample records.
+
+For deployment on InfinityFree, import `db_export/infinityfree_database.sql` into the assigned database (`if0_43084784_tfa4`). It omits `CREATE DATABASE` and `USE` statements to prevent permissions errors on shared hosting.
 
 If your completed TFA3 database is already installed and contains records you want to preserve, import only `db_export/tfa4_upgrade.sql`. It adds the password column and assigns a hashed classroom password to existing users. Do not import both SQL files into the same existing database.
 
