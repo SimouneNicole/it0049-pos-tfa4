@@ -2,7 +2,7 @@
 
 A CodeIgniter 4 Point of Sale application that extends TFA3 with password hashing, staff login, session-based authentication, protected customer and user routes, and logout. The TFA3 customer CRUD, user CRUD, validation, avatar upload, and liquid-glass interface remain included.
 
-## Deployed InfinityFree website: http://tfa4.freehosting.dev/
+## Deployed InfinityFree website: https://tfa4.freehosting.dev/
 
 ## Features
 
